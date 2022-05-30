@@ -1,0 +1,97 @@
+
+/* Seletor TAG */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #1f1f1f;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body{
+  margin: 0;
+  font-size: 1.3em;
+  background-color: #ccc;
+}
+
+/* Seletor Parente */
+nav a{
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* link não visitado  */
+nav a:link {
+  color: #f1f1f1;
+}
+
+/* link visitado  */
+nav a:visited{
+  color: #f1f1f1;
+}
+
+/* efeito hover */
+nav a:hover{
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+
+i{
+  font-size: 24px !important;
+}
+
+/* Seletor ID # */
+#logo i{
+  color: #f1f1f1;
+}
+
+#logo span{
+  color: #f1f1f1;
+  text-shadow: 3px 3px 10px #f1f1f1;
+}
+
+
+main{
+  width: 70%;
+  margin: 50px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  
+}
+
+/* Seletor filho */
+main>div {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Seletro parente  */
+main img{
+  height: 200px;
+}
+
+/* Seletor agrupado  */
+body, html{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  margin-top: auto;
+  background-color: #1f1f1f;
+  height: 60px;
+  color: #f1f1f1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
